@@ -1,0 +1,70 @@
+
+body{
+  background: rgb(200, 220, 231);
+  color: black;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 0;
+  padding: 10em 14em 14em 25em;
+}
+
+.abstract{
+  position: absolute;
+  z-index: -2;
+  width: 100vh;
+  height: 150vh;
+  top: 0;
+  left: 0;
+}
+.container{
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 3em;
+  border-radius: 3em;
+  position: relative;
+  z-index: 1;
+  backdrop-filter: blur(30px);
+  background-clip: padding-box;
+}
+
+input{
+  height: 100%;
+  width: 80%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 18px;
+
+
+}
+
+p{
+  font-family: 'Dancing Script', cursive;
+}
+a{
+  text-decoration: none;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+a{
+  display: inline-block;
+  background: #51eaea;
+  color: #111;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid #51eaea;
+  transition: all 0.3s ease;
+}
+
+
+a:hover{
+  color: #f9f7d9;
+  background: none;
+}
+
+.container h2{
+  text-align: center;
+}
